@@ -1,0 +1,17 @@
+<div ng-include="/client/shared/header.html"></div>
+
+<h3>p2</h3>
+<div class="container editable" id="editable"></div>
+
+<button type="button" class="btn btn-success" onclick="checktext()">Save</button>
+
+<div id="blog" class="container"></div>
+
+<script>
+    var editor = new MediumEditor('.editable');
+
+    $('.editable').mediumInsert({
+        editor: editor
+    });
+
+</script>
