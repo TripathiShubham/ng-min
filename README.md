@@ -1,2 +1,3 @@
 # ng-min
-ng-min with router
+
+Implementation of Angular JS router in vanilla js
